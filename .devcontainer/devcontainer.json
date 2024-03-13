@@ -24,6 +24,7 @@
 				"mechatroner.rainbow-csv"
 			],
 			"settings": {
+				"window.confirmBeforeClose": "keyboardOnly",
 				"files.autoSave": "onFocusChange",
 				"editor.guides.indentation": false,
 				"editor.defaultFormatter": "ms-python.black-formatter",
