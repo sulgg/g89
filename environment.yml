@@ -1,11 +1,14 @@
 channels:
   - conda-forge
+  - microsoft
   - defaults
 dependencies:
   - jupyter
   - numpy
+  - pandas
   - matplotlib
   - psycopg2
   - pylint
   - sqlalchemy
   - jupysql
+  - azure-ai-ml
