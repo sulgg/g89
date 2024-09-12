@@ -21,7 +21,8 @@
 			"extensions": [
 				"ms-python.black-formatter",
 				"ms-toolsai.jupyter",
-				"mechatroner.rainbow-csv"
+				"mechatroner.rainbow-csv",
+				"ms-toolsai.vscode-ai"
 			],
 			"settings": {
 				"window.confirmBeforeClose": "keyboardOnly",
