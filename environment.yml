@@ -1,8 +1,8 @@
 channels:
   - conda-forge
-  - microsoft
-  - defaults
+  # - defaults
 dependencies:
+  - azure-ai-ml
   - jupyter
   - numpy
   - pandas
@@ -11,4 +11,3 @@ dependencies:
   - pylint
   - sqlalchemy
   - jupysql
-  - azure-ai-ml
