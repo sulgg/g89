@@ -8,6 +8,10 @@ RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && /opt/conda/bi
 
 # Install the Azure CLI 
 RUN curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+RUN az version
+RUN az extension add -n ml
+RUN az extension update -n ml
+RUN az version
 
 # [Optional] Uncomment to install a different version of Python than the default
 # RUN conda install -y python=3.6 \
